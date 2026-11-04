@@ -1,0 +1,4 @@
+# Copy this file to db.properties (same folder) and fill in your MySQL credentials.
+# db.properties is gitignored.
+db.user=root
+db.password=changeme

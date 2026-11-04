@@ -1,0 +1,26 @@
+# Allowlist: ignore everything at the top level, then keep only what the
+# app needs to build and run. NetBeans files (build.xml, nbproject/, etc.),
+# build output, raw source material and IDE settings stay local.
+/*
+!/src/
+!/lib/
+!/README.md
+!/db.properties.example
+!/.gitignore
+
+# Keep only the MySQL driver jar from lib/
+/lib/*
+!/lib/mysql-connector-j-8.4.0/
+/lib/mysql-connector-j-8.4.0/*
+!/lib/mysql-connector-j-8.4.0/mysql-connector-j-8.4.0.jar
+
+# Local credentials (copy db.properties.example)
+db.properties
+
+# NetBeans GUI-builder metadata (the .java files are plain Swing)
+*.form
+
+# Compiled output and OS junk anywhere in the tree
+*.class
+.DS_Store
+Thumbs.db
