@@ -1,8 +1,8 @@
 # World Countries Database
 
-A Java Swing desktop app for browsing, searching and editing information about the countries of the world, backed by a MySQL database. Built for CS 143.
+A Java Swing desktop app for browsing, searching, and editing information about the countries of the world, backed by a MySQL database. Built for CS 143.
 
-For each country the app shows its flag, a photo, capital, population, land area, longest river, a description, a common fact, a lesser-known fact, some history and a link to a video.
+For each country, the app shows its flag, a photo, capital, population, land area, longest river, a description, a common fact, a lesser-known fact, some history, and a link to a video.
 
 ## Features
 
@@ -21,7 +21,7 @@ For each country the app shows its flag, a photo, capital, population, land area
 
 ## Setup
 
-On first run the app creates the `WorldDB` database and its tables, then fills them from the CSV files in `src/Data`. You only need to give it your MySQL login.
+On first run, the app creates the `WorldDB` database and its tables, then fills them from the CSV files in `src/Data`. You only need to give it your MySQL login.
 
 1. **Add your MySQL credentials.** Copy the example file and fill in your username and password:
 
@@ -70,6 +70,13 @@ src/
 lib/                          MySQL JDBC driver
 db.properties.example         Template for your local credentials
 ```
+
+## Image credits
+
+Country photos in `src/CountryImages` are from [Wikipedia](https://www.wikipedia.org/) and
+[Wikimedia Commons](https://commons.wikimedia.org/). They're used under their original licenses,
+which are mostly public domain or Creative Commons (CC BY-SA). Credit belongs to the original
+photographers; see each image's page on Wikimedia Commons for author and license details.
 
 ## Author
 
